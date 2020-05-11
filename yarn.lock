@@ -4328,6 +4328,15 @@ parcel-plugin-handlebars@^0.4.4:
     handlebars-wax "^6.1.0"
     parcel-bundler "^1.4.1"
 
+parcel-plugin-prettier@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-prettier/-/parcel-plugin-prettier-0.2.1.tgz#5e13d8495cfa5d9a056784cfab01b5c4f10c1bad"
+  integrity sha512-Aun4F8+NBBca2YhhszIoi7xQxJRbt3zLJNVruGrgBjXRebk0mopeEq4YGPRwfycdwx4HLv5FLIyK2DEvZ/jaRw==
+  dependencies:
+    jsonfile "^4.0.0"
+    mkdirp "^0.5.1"
+    prettier "^1.15.3"
+
 parent-module@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/parent-module/-/parent-module-0.1.0.tgz#b5292863a1e8c476ecf857e7d75c98920b24b8a6"
@@ -4855,6 +4864,11 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
+
+prettier@^1.15.3:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
+  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
