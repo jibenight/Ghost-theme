@@ -1,4 +1,8 @@
 /* taillwind css */
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+header {
+  height: 35rem !important;
+}
