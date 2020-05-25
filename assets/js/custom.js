@@ -5,8 +5,6 @@ const MenuLine = document.getElementById("Menu-line");
 const MenuLink = document.getElementById("Menu-link");
 const MenuButton = document.getElementById("Menu-button");
 
-//MenuButton.removeChild(MenuButton.childNodes[O]);
-
 MenuButton.addEventListener("click", function() {
   const MenuToggle = MenuLink.classList.toggle("hidden");
   if (MenuToggle === false) {
