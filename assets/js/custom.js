@@ -1,6 +1,20 @@
-// fonction pour ouvrir le menu hamburger
+//import Rellax from "rellax";
 
-const MenuCross = document.getElementById("Menu-cross");
+// setup the paralax card mice move
+
+const moveCard = document.getElementsByClassName("rellax");
+for (let i = 0; i < moveCard.length; i++) {
+  moveCard[i].addEventListener("mousemove", function() {
+    console.log("move mice");
+  });
+}
+// var rellax = new Rellax(".rellax", {
+//   speed: -200,
+//   zindex: 5
+// });
+
+// fonction pour ouvrir le menu hamburger
+ElementById("Menu-cross");
 const MenuLine = document.getElementById("Menu-line");
 const MenuLink = document.getElementById("Menu-link");
 const MenuButton = document.getElementById("Menu-button");
