@@ -14,7 +14,7 @@
     "handlebars-wax": "^6.1.0",
     "parcel-bundler": "^1.4.1",
     "parcel-plugin-prettier": "^0.2.1",
-    "postcss": "^7.0.29",
+    "postcss": "^7.0.36",
     "tailwindcss": "^1.4.6"
   },
   "dependencies": {
